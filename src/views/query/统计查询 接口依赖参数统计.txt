@@ -1,0 +1,81 @@
+所有影响接口的双向绑定变量：
+starttime endtime
+selectBarYear  第一个chart的select
+selectTypeValue
+selectDwValue
+selectGradeValue
+middleYear
+inAndOutValue-
+goodsTypeValue
+gisTopValue 
+selectGoodsValue 
+selectRoadValue
+checkedCities
+
+0 港口泊位
+接口
+getBerthTypeCount
+getWaterBerthCount
+getAdoptAbility
+getCityAreaPort
+getYearBerthCount
+getBerthCountTrend
+涉及双向绑定变量
+1 selectBarYear selectTypeValue selectDwValue
+2 starttime endtime selectTypeValue selectDwValue
+3 starttime endtime selectTypeValue selectDwValue
+4 middleYear selectTypeValue selectDwValue
+5 starttime endtime city
+6 starttime endtime city
+
+1内河航道
+接口
+getChannelStructural
+getChannelMileage
+getChannelGradeChange
+getChannelCityMileage
+getChannelSingleCityMileage
+getChannelSingleCityGradeChange
+涉及双向绑定变量
+1 selectBarYear selectGradeValue
+2 starttime endtime selectGradeValue
+3 starttime endtime selectGradeValue
+4 middleYear
+5 starttime endtime city
+6 starttime endtime city
+
+2 港口吞吐
+接口
+getHuffAndPuffStructure
+getHuffAndPuffPort
+getHuffAndPuffSpecialTrend
+getHuffAndPuffPortCity
+getHuffAndPuffPortSingleCity
+getHuffAndPuffSpecialTrendOfCity
+涉及双向绑定变量
+1 selectBarYear selectTypeValue
+2 starttime endtime selectTypeValue inAndOutValue
+3 starttime endtime selectTypeValue
+4 middleYear goodsTypeValue
+5 starttime endtime city
+6 starttime endtime city
+
+3 航道货运
+接口
+getCargoProportion
+getCargoStructure
+getFreightVolume
+getTransport
+getCargoVolumeOfChannelLock
+getChannelLockThroughput
+涉及双向绑定变量
+1 selectBarYear gisTopValue selectGoodsValue selectRoadValue
+2 starttime endtime gisTopValue selectGoodsValue selectRoadValue
+3 starttime endtime gisTopValue selectGoodsValue selectRoadValue
+4 middleYear gisTopValue checkedCities
+5 starttime endtime hwlx(gisTopValue--cities)
+6 starttime endtime hwlx
+
+
+
+

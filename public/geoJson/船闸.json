@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.4101786452914,33.85520607626979]},"properties":{"FID_":0,"Entity":"Point","Layer":"0","Color":7,"Linetype":"Continuous","Elevation":0,"LineWt":25,"RefName":"","Angle":0,"Ãû³Æ":"陆运河船闸","ÀàÐÍ":"船闸","ÏîÄ¿":"宿连航道(京杭运河至盐河段)整治工程一期工程","TYPE":"船闸","NAME":"陆运河船闸"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.61832304998696,34.12023968325918]},"properties":{"FID_":0,"Entity":"Point","Layer":"0","Color":7,"Linetype":"Continuous","Elevation":0,"LineWt":25,"RefName":"","Angle":0,"Ãû³Æ":"军屯河船闸","ÀàÐÍ":"船闸","ÏîÄ¿":"宿连航道(京杭运河至盐河段)整治工程一期工程","TYPE":"船闸","NAME":"军屯河船闸"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.7101137888961,34.15724816277137]},"properties":{"FID_":0,"Entity":"Point","Layer":"0","Color":7,"Linetype":"Continuous","Elevation":0,"LineWt":25,"RefName":"","Angle":0,"Ãû³Æ":"沭新河南船闸","ÀàÐÍ":"船闸","ÏîÄ¿":"宿连航道(京杭运河至盐河段)整治工程一期工程","TYPE":"船闸","NAME":"沭新河南船闸"}}
+]}

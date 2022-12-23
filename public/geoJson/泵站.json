@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.61827025753381,34.12076971525402,0,-1.7976931348623157e+308]},"properties":{"FID_":0,"Entity":"Point","Layer":"0","Color":7,"Linetype":"Continuous","Elevation":0,"LineWt":25,"RefName":"","Angle":0,"Ãû³Æ":"军屯河补水站","ÀàÐÍ":"泵站","ÏîÄ¿":"宿连航道(京杭运河至盐河段)整治工程一期工程","TYPE":"泵站","NAME":"军屯河补水站"}}
+]}

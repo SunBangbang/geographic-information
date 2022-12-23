@@ -1,0 +1,342 @@
+@import './variables.scss';
+
+.app-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.main-container {
+  transition: left 0.28s;
+  position: absolute;
+  top: $navbarHeight;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f3f4f9;
+}
+
+.app-main {
+  position: absolute;
+  // top: 65px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  // padding: 20px 15px;
+}
+
+.navbar {
+  height: $navbarHeight;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+  //background-image: linear-gradient(to right, #0e5dad, #3983ce);
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+  background: url('../img/layout/header_bg.png') no-repeat;
+  background-size: 100% 100%;
+  .logo-name {
+    float: left;
+    line-height: $navbarHeight;
+    img {
+      vertical-align: middle;
+    }
+    .system-name {
+      vertical-align: middle;
+      margin-left: 20px;
+      line-height: 30px;
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #fff;
+    }
+  }
+}
+
+.hamburger-container {
+  // width: 85px;
+  width:70px;
+  line-height: $navbarHeight;
+  height: 100%;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.28s;
+  -webkit-tap-highlight-color: transparent;
+  padding-left: 20px;
+  &:hover {
+    background: rgba(0, 0, 0, 0.025);
+  }
+}
+
+.sidebar-container {
+  transition: width 0.29s;
+  width: $sideBarWidth !important;
+  position: absolute;
+  top: $navbarHeight;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 100;
+  background-color: $menuBg;
+
+  .pad-printing {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .nest-menu {
+    height: 50px;
+  }
+
+  // reset element-ui css
+  .horizontal-collapse-transition {
+    transition: 0s width ease-in-out, 0s padding-left ease-in-out,
+      0s padding-right ease-in-out;
+  }
+
+  .scrollbar-wrapper {
+    overflow-x: hidden !important;
+  }
+  .el-scrollbar {
+    z-index: 2;
+  }
+  .el-scrollbar__bar.is-vertical {
+    right: 0px;
+  }
+
+  .is-horizontal {
+    display: none;
+  }
+
+  a {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .svg-icon {
+    margin-right: 16px;
+  }
+
+  .sub-el-icon {
+    margin-right: 12px;
+    margin-left: -2px;
+  }
+
+  .el-menu {
+    border: none;
+    height: 100%;
+    width: 100% !important;
+  }
+
+  // menu hover
+  .submenu-title-noDropdown,
+  .el-submenu__title {
+    &:hover {
+      background-color: $menuHover !important;
+    }
+  }
+
+  .is-active > .el-submenu__title {
+    color: $subMenuActiveText !important;
+  }
+
+  & .nest-menu .el-submenu > .el-submenu__title,
+  & .el-submenu .el-menu-item {
+    min-width: $sideBarWidth !important;
+    background-color: $subMenuBg !important;
+
+    &:hover {
+      background-color: $subMenuHover !important;
+    }
+  }
+  .el-menu-item:hover {
+    background-color: $subMenuHover !important;
+  }
+}
+
+.withoutAnimation {
+  .main-container,
+  .sidebar-container {
+    transition: none;
+  }
+}
+
+.hideSidebar{
+  .sidebar-container {
+    width: 0px !important;
+  }
+
+  .main-container {
+    left: 0px;
+  }
+
+  .submenu-title-noDropdown {
+    padding: 0 !important;
+    position: relative;
+
+    .el-tooltip {
+      padding: 0 !important;
+
+      .svg-icon {
+        margin-left: 20px;
+      }
+
+      .sub-el-icon {
+        margin-left: 19px;
+      }
+    }
+  }
+
+  .el-submenu {
+    overflow: hidden;
+
+    & > .el-submenu__title {
+      padding: 0 !important;
+
+      .svg-icon {
+        margin-left: 20px;
+      }
+
+      .sub-el-icon {
+        margin-left: 19px;
+      }
+
+      .el-submenu__icon-arrow {
+        display: none;
+      }
+    }
+  }
+
+  .el-menu--collapse {
+    .el-submenu {
+      & > .el-submenu__title {
+        & > span {
+          height: 0;
+          width: 0;
+          overflow: hidden;
+          visibility: hidden;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+
+// .onmouseover:before {
+//   .sidebar-container {
+//     width: 0px !important;
+//   }
+
+//   .main-container {
+//     left: 0px;
+//   }
+
+//   .submenu-title-noDropdown {
+//     padding: 0 !important;
+//     position: relative;
+
+//     .el-tooltip {
+//       padding: 0 !important;
+
+//       .svg-icon {
+//         margin-left: 20px;
+//       }
+
+//       .sub-el-icon {
+//         margin-left: 19px;
+//       }
+//     }
+//   }
+
+//   .el-submenu {
+//     overflow: hidden;
+
+//     & > .el-submenu__title {
+//       padding: 0 !important;
+
+//       .svg-icon {
+//         margin-left: 20px;
+//       }
+
+//       .sub-el-icon {
+//         margin-left: 19px;
+//       }
+
+//       .el-submenu__icon-arrow {
+//         display: none;
+//       }
+//     }
+//   }
+
+//   .el-menu--collapse {
+//     .el-submenu {
+//       & > .el-submenu__title {
+//         & > span {
+//           height: 0;
+//           width: 0;
+//           overflow: hidden;
+//           visibility: hidden;
+//           display: inline-block;
+//         }
+//       }
+//     }
+//   }
+
+
+// }
+
+.el-menu--collapse .el-menu .el-submenu {
+  min-width: $sideBarWidth !important;
+}
+
+// when menu collapsed
+.el-menu--vertical {
+  & > .el-menu {
+    .svg-icon {
+      margin-right: 16px;
+    }
+    .sub-el-icon {
+      margin-right: 12px;
+      margin-left: -2px;
+    }
+  }
+
+  .nest-menu .el-submenu > .el-submenu__title,
+  .el-menu-item {
+    &:hover {
+      // you can use $subMenuHover
+      background-color: $menuHover !important;
+    }
+  }
+
+  // the scroll bar appears when the subMenu is too long
+  > .el-menu--popup {
+    max-height: 100vh;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar-track-piece {
+      background: #d3dce6;
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #99a9bf;
+      border-radius: 20px;
+    }
+  }
+}
+
+.el-menu--popup-right-start {
+  background-color: $menuBg !important;
+}

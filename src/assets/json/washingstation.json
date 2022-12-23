@@ -1,0 +1,7 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.85031739299971,32.22238155099991]},"properties":{"name":"大厂扬巴6号","x_coord":"118.850317393","y_coord":"32.222381551","height":5.06,"desc":"","SBF":"XCZ_1"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[120.101076933,31.937703523999996]},"properties":{"name":"丽天石化","x_coord":"120.101076933","y_coord":"31.937703524","height":1.44,"desc":"","SBF":"XCZ_2"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[120.53606935900001,32.063769826999994]},"properties":{"name":"南通阳鸿石化","x_coord":"120.536069359","y_coord":"32.063769827","height":4.022,"desc":"","SBF":"XCZ_3"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.11837863999993,32.24190689799998]},"properties":{"name":"杨家沟河口段","x_coord":"119.118378640","y_coord":"32.241906898","height":4.865,"desc":"","SBF":"XCZ_4"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[120.9399359450001,31.832468463999984]},"properties":{"name":"中化南通石化","x_coord":"120.939935945","y_coord":"31.832468464","height":2.766,"desc":"","SBF":"XCZ_5"}}
+]}

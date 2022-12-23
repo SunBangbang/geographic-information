@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.71689974665327,34.13171688293783,0,-1.7976931348623157e+308]},"properties":{"FID_":0,"Entity":"Point","Layer":"0","Color":7,"Linetype":"Continuous","Elevation":0,"LineWt":25,"RefName":"","Angle":0,"Ãû³Æ":"沭阳锚地","ÀàÐÍ":"锚地","ÏîÄ¿":"宿连航道(京杭运河至盐河段)整治工程一期工程","TYPE":"锚地","NAME":"沭阳锚地"}}
+]}

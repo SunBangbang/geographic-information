@@ -1,0 +1,175 @@
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type='file'] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.cell {
+  .el-tag {
+    margin-right: 0px;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .el-button--mini {
+    padding: 7px 10px;
+    min-width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .el-tag {
+      margin-right: 0px;
+    }
+  }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block;
+  }
+}
+
+// fix date-picker ui bug in filter-item
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+// .el-table--enable-row-hover .el-table__body tr:hover > td {
+//   color: #333;
+//   background-color: #009bf9;
+// }
+
+// .el-table--striped
+//   .el-table__body
+//   tr.el-table__row--striped.el-table__row--striped.el-table__row--striped
+//   td {
+//   background-color: #eff3f7; /*替换为你需要的颜色，觉得优先级不够就加!important*/
+// }
+.el-table__expanded-cell[class*='cell'] {
+  padding: 0 20px 20px 20px;
+  background-color: #f8f8f8;
+}
+
+.el-input__inner {
+  height: 35px !important;
+}
+
+.el-upload-list {
+  width: 100% !important;
+  height: 150px !important;
+  margin-top: 10px;
+  background-color: #f8f8f8 !important;
+}
+
+.el-dialog {
+  border-radius: 4px;
+}
+.el-dialog__header {
+  font-size: 16px;
+  padding: 12px 20px;
+  background-color: #f6f6f6;
+  border-radius: 4px 4px 0 0;
+  span {
+    color: #2a8df0;
+  }
+}
+.el-dialog__headerbtn {
+  top: 15px;
+}
+.el-upload__tip {
+  flex: 1;
+  line-height: 14px;
+  padding-left: 8px;
+  margin-top: 0;
+}
+.el-popover.tip {
+  padding: 5px;
+  background-color: #fff9d7;
+  border: 1px solid #ffe080;
+  border-radius: 2px;
+}
+.el-popper[x-placement^=top] .popper__arrow {
+  border-top-color: #ffe080;
+}
+
+
+.el-table .warning-row {
+  background: #396485;
+  color: #fff;
+  
+}
+.el-table .success-row {
+  background: #264b68;
+  color: #fff;
+ 
+}
+
+
+
+
+.el-table::before {
+  height: 0;  // 将高度修改为0
+}
+
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+
+// el-table__column-resize-proxy
+.el-table::after {
+  height: 0;  // 将高度修改为0
+}
+
+.el-popover{
+  height: 500px; 
+  // overflow: auto;
+}

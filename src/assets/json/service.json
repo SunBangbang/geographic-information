@@ -1,0 +1,18 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.79499820521589,32.15212531952593]},"properties":{"NAME":"21","name_1":"服务区1","NAME1":"21","PINYIN":"南京","d_type":"FWQ_1"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.51422742131525,31.861562335120134]},"properties":{"NAME":"26","name_1":"服务区2","NAME1":"26","PINYIN":"南京","d_type":"FWQ_2"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.59044914044733,31.940444867466503]},"properties":{"NAME":"24","name_1":"服务区3","NAME1":"24","PINYIN":"南京","d_type":"FWQ_3"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.67717165491159,32.04541576821548]},"properties":{"NAME":"22","name_1":"服务区4","NAME1":"22","PINYIN":"南京","d_type":"FWQ_4"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[118.97957144182361,32.18686627264683]},"properties":{"NAME":"19","name_1":"服务区5","NAME1":"19","PINYIN":"南京","d_type":"FWQ_5"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.07509941265093,32.24499499617874]},"properties":{"NAME":"18","name_1":"服务区6","NAME1":"18","PINYIN":"南京","d_type":"FWQ_6"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.3236095703459,32.23993499657262]},"properties":{"NAME":"17","name_1":"服务区7","NAME1":"17","PINYIN":"南京","d_type":"FWQ_7"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.40480962205714,32.25681500474208]},"properties":{"NAME":"15","name_1":"服务区8","NAME1":"15","PINYIN":"南京","d_type":"FWQ_8"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.48387963998682,32.27462502478615]},"properties":{"NAME":"14","name_1":"服务区9","NAME1":"14","PINYIN":"南京","d_type":"FWQ_9"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.64659337244427,32.20897074224674]},"properties":{"NAME":"12","name_1":"服务区10","NAME1":"12","PINYIN":"南京","d_type":"FWQ_10"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.82240243662999,32.300195328063346]},"properties":{"NAME":"10","name_1":"服务区11","NAME1":"10","PINYIN":"南京","d_type":"FWQ_11"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[119.99021588928423,32.00649814826219]},"properties":{"NAME":"9","name_1":"服务区12","NAME1":"9","PINYIN":"南京","d_type":"FWQ_12"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[120.12924501675188,31.955116643829264]},"properties":{"NAME":"8","name_1":"服务区13","NAME1":"8","PINYIN":"南京","d_type":"FWQ_13"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[120.35516287351682,32.003318908503545]},"properties":{"NAME":"7","name_1":"服务区14","NAME1":"7","PINYIN":"南京","d_type":"FWQ_14"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[120.63246040034225,32.00502489506973]},"properties":{"NAME":"6","name_1":"服务区15","NAME1":"6","PINYIN":"南京","d_type":"FWQ_15"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[120.78830531055804,32.02325222169241]},"properties":{"NAME":"5","name_1":"服务区16","NAME1":"5","PINYIN":"Nanjing","d_type":"FWQ_16"}}
+]}

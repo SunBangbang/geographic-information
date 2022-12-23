@@ -1,0 +1,52 @@
+{
+  "name": "vue-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "af-table-column": "^1.0.3",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.4",
+    "echarts": "^5.0.2",
+    "element-ui": "^2.15.6",
+    "js-cookie": "^2.2.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "node-gyp": "^9.0.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "ol": "^6.14.1",
+    "postcss-px2rem": "^0.3.0",
+    "qs": "^6.9.1",
+    "v-fit-columns": "^0.2.0",
+    "v-viewer": "^1.6.4",
+    "vue": "^2.6.11",
+    "vue-cookies": "^1.7.0",
+    "vue-happy-bus": "^1.0.1",
+    "vue-print-nb": "^1.5.0",
+    "vue-router": "^3.1.5",
+    "vue-ueditor-wrap": "^2.4.4",
+    "vuex": "^3.1.2",
+    "wangeditor": "^4.7.5"
+  },
+  "devDependencies": {
+    "@babel/compat-data": "7.9.0",
+    "@babel/preset-env": "^7.8.7",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "exports-loader": "^2.0.0",
+    "imports-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^2.4.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
